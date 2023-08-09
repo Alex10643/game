@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class AttemptsGame {
     static int randomNumber;
     static int attempt;
-
+//FIXME only 3 attempts for all tries
 
     static void game() {
         Random rand = new Random();
@@ -40,6 +40,7 @@ public class AttemptsGame {
             case "yes":
                 game();
                 break;
+                //TODO one case for "yes" is more than enough. It can be Yes/YEs/YES/yES..... - no matter how
             case "YES":
                 What.game();
                 break;
