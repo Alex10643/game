@@ -17,6 +17,9 @@ public class Main {
             case 2:
                 AttemptsGame.game();;
                 break;
+            case 3:
+                What.game();
+                break;
             default:
                 System.out.println("I did not get anything. Can you write again?");
                 chooseGamemode();
